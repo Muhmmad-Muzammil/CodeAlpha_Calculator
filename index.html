@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Favicon for the website -->
+    <link rel="icon" type="image/jpg" href="Muhammad-Muzammil-pic.jpg" />
+    <!-- FontAwesome CDN for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Scientific Calculator</title>
+  </head>
+  <body>
+    <!-- Welcome Overlay Section -->
+    <div id="welcomeOverlay">
+      <!-- Profile Image -->
+      <img
+        src="Muhammad-Muzammil-pic.jpg"
+        alt="Muhammad-Muzammil"
+        class="profile-image"
+      />
+      <!-- Welcome Message -->
+      <h1>Welcome to this Calculator</h1>
+      <!-- Made by Message -->
+      <p>Made by <strong>Muhammad-Muzammil</strong></p>
+      <!-- Enter Button with Icon -->
+      <button id="enterButton"><i class="fas fa-arrow-right"></i></button>
+    </div>
+
+    <!-- Calculator Section -->
+    <div class="calculator">
+      <!-- Theme Toggle Container -->
+      <div class="theme-container">
+        <span class="theme-label">Dark Mode</span>
+        <div id="themeToggle" class="theme-toggle"></div>
+      </div>
+
+      <!-- Input Box for Calculator -->
+      <input type="text" placeholder="0" id="inputBox" readonly />
+
+      <!-- Calculator Buttons -->
+      <div>
+        <button class="operator">AC</button>
+        <button class="operator">DEL</button>
+        <button class="operator">%</button>
+        <button class="operator">/</button>
+      </div>
+      <div>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button class="operator">*</button>
+      </div>
+      <div>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button class="operator">-</button>
+      </div>
+      <div>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button class="operator">+</button>
+      </div>
+      <div>
+        <button>00</button>
+        <button>0</button>
+        <button>.</button>
+        <button class="eqlbtn">=</button>
+      </div>
+      <!-- Scientific Buttons -->
+      <div>
+        <button class="scientific">sin</button>
+        <button class="scientific">cos</button>
+        <button class="scientific">tan</button>
+        <button class="scientific">log</button>
+      </div>
+      <div>
+        <button class="scientific">√</button>
+        <button class="scientific">x²</button>
+        <button class="scientific">xⁿ</button>
+        <button class="scientific">!</button>
+      </div>
+      <!-- History Display -->
+      <div id="history"></div>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
+
+<!-- Made by Muhammad-Muzammil
+This HTML file is part of a scientific calculator project created by Muhammad-Muzammil.
+Feel free to customize and use it as per your requirements. -->
+
